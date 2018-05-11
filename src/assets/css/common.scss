@@ -1,0 +1,73 @@
+
+// 改变主题色变量
+// $--color-primary: #FF5A60;
+// 改变 icon 字体路径变量，必需
+$--font-path: '../../../node_modules/element-ui/lib/theme-chalk/fonts';
+// 引入element-ui未编译的样式
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";
+// 引入iconfont字体图标
+// @import './iconfont.css';
+
+$width: 768px;
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: 14px;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: inline-block;
+  border: none
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.inline-block { display: inline-block; }
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.fl { float: left; }
+.fr { float: right; }
+.clear-f::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.bg-white {
+  background: #FFF;
+}
+.c21 {
+  color: #212121;
+}
+.gray {
+  color: gray;
+}
+
+
+// 过渡类名添加规则
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.15s ease
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
