@@ -2,26 +2,16 @@
 
 > Vue.js开源项目 - 吴海跃.
 
-## Build Setup
+## 在线演示
 
 ``` bash
-# install dependencies
-npm install
+[el-table扩展](http://vue.wuhaiyue.com/components/table-ext)
+# 适合字段非常多的情况使用
+# 拖动滚动条时分类tab宽度会跟随变化
 
-# serve with hot reload at localhost:8080
-npm run dev
+[正向计时器](http://vue.wuhaiyue.com/components/timer)
+# 提供 start、stop、reStart 方法
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+未完待续...
